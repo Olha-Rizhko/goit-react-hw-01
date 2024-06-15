@@ -1,0 +1,30 @@
+.transactionTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 32px;
+  font-size: 14px;
+  text-align: left;
+}
+
+.transactionTable thead {
+  background-color: #2A2A2A;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.transactionTable th, .transactionTable td {
+  padding: 4px 40px;
+  border: 2px solid #000000;
+  text-transform: capitalize;
+  line-height: 1.5;
+}
+
+.transactionTable tbody tr:nth-child(even) {
+  background-color: #D3D3D3;
+}
+
+.transactionTable tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
